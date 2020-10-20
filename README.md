@@ -58,7 +58,8 @@ can be configured to run a system call with the new transaction:
   must have wallet functionality enabled, and must have the RPC server switched on (`server=1`
   in bitcoin.conf). On first run, it is recommended to create a wallet dedicated
   to Electrum Personal Server using the command line argument
-  `bitcoin-cli createwallet electrumpersonalserver true`.
+  `bitcoin-cli createwallet electrumpersonalserver true`. 
+  (Note that using an encrypted wallet in your Bitcoin node will result in an error so do not encrypt the wallet)
 
 * If you dont already have it, download and install
   [Electrum bitcoin wallet](https://electrum.org/), and set up your Electrum
